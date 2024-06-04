@@ -23,7 +23,7 @@ List<continentsModel> continents = [
   australia
 ];
 
-const europe = continentsModel(image: 'europa', title: 'Europa');
+final europe = continentsModel(image: 'europa', title: 'Europa',suroolor: suroo_Europe);
 const asia = continentsModel(image: 'asia', title: 'Asia');
 final northAmerica = continentsModel(
     image: 'south_american',

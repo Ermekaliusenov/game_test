@@ -116,11 +116,12 @@ class _TestPagesState extends State<TestPages> {
               width: double.infinity,
               height: 220,
               child: Image.asset(
-                'assets/south_america/${widget.suroolor[index].surot}.jpeg',
+                'assets/stolitca/${widget.suroolor[index].surot}.jpeg',
                 width: double.infinity,
                 height: 100,
                 fit: BoxFit.cover,
               ),
+            
             ),
             const SizedBox(
               height: 15,
