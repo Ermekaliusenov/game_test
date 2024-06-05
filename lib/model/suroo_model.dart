@@ -281,7 +281,9 @@ const a10 = Suroo(
   text: 'Амстердам',
   surot: 'amsterdam',
   jooptor: [
-    Joop(text: 'Беларусь',),
+    Joop(
+      text: 'Беларусь',
+    ),
     Joop(text: 'Нидерландия', tuurajoop: true),
     Joop(
       text: 'Болгария',
@@ -289,5 +291,227 @@ const a10 = Suroo(
     Joop(
       text: 'Словакия',
     )
+  ],
+);
+List<Suroo> asiaSurooloru = [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10];
+
+const b1 = Suroo(
+  text: 'Ашхабат',
+  surot: 'ashhabad',
+  jooptor: [
+    Joop(text: 'Туркмөнстан', tuurajoop: true),
+    Joop(text: 'Тажикстан'),
+    Joop(text: 'Сирия'),
+    Joop(text: 'Индия'),
+  ],
+);
+
+const b2 = Suroo(
+  text: 'Астана',
+  surot: 'astana',
+  jooptor: [
+    Joop(text: 'Кыргызстан'),
+    Joop(text: 'Казакстан', tuurajoop: true),
+    Joop(text: 'Россия'),
+    Joop(text: 'Кытай'),
+  ],
+);
+
+const b3 = Suroo(
+  text: 'Бишкек',
+  surot: 'bishkek',
+  jooptor: [
+    Joop(text: 'Шриланка'),
+    Joop(text: 'Малазия'),
+    Joop(text: 'Узбекстан'),
+    Joop(text: 'Кыргызстан', tuurajoop: true),
+  ],
+);
+
+const b4 = Suroo(
+  text: 'Душанбе',
+  surot: 'dushanbe',
+  jooptor: [
+    Joop(text: 'Миянма'),
+    Joop(text: 'Тажикстан', tuurajoop: true),
+    Joop(text: 'Иордания'),
+    Joop(text: 'Пакистан'),
+  ],
+);
+
+const b5 = Suroo(
+  text: 'Нью-Дели',
+  surot: 'new-delhi',
+  jooptor: [
+    Joop(text: 'Индия', tuurajoop: true),
+    Joop(text: 'Япония'),
+    Joop(text: 'Корея'),
+    Joop(text: 'Сингапур'),
+  ],
+);
+
+const b6 = Suroo(
+  text: 'Пекин',
+  surot: 'pekin',
+  jooptor: [
+    Joop(text: 'Азербайжан'),
+    Joop(text: 'Таиланд'),
+    Joop(text: 'Кытай', tuurajoop: true),
+    Joop(text: 'Ветнам'),
+  ],
+);
+
+const b7 = Suroo(
+  text: 'Сеул',
+  surot: 'seul',
+  jooptor: [
+    Joop(text: 'Палестина'),
+    Joop(text: 'Иран'),
+    Joop(text: 'Непал'),
+    Joop(text: 'Корея', tuurajoop: true),
+  ],
+);
+
+const b8 = Suroo(
+  text: 'Ташкент',
+  surot: 'tashkent',
+  jooptor: [
+    Joop(text: 'Сауд Аравия'),
+    Joop(text: 'Узбекстан', tuurajoop: true),
+    Joop(text: 'Катар'),
+    Joop(text: 'Оман'),
+  ],
+);
+
+const b9 = Suroo(
+  text: 'Токио',
+  surot: 'tokyo',
+  jooptor: [
+    Joop(text: 'Филипин'),
+    Joop(text: 'Монголия'),
+    Joop(text: 'Япония', tuurajoop: true),
+    Joop(text: 'ОАЭ'),
+  ],
+);
+
+const b10 = Suroo(
+  text: 'Улан Батор',
+  surot: 'ulan_bator',
+  jooptor: [
+    Joop(text: 'Монголия', tuurajoop: true),
+    Joop(text: 'Грузия'),
+    Joop(text: 'Армения'),
+    Joop(text: 'Малазия'),
+  ],
+);
+List<Suroo> northAmericaSurooloru = [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10];
+
+const c1 = Suroo(
+  text: 'Буенос-Айрес',
+  surot: 'buenos-aires',
+  jooptor: [
+    Joop(text: 'Венесуела'),
+    Joop(text: 'Парагвай'),
+    Joop(text: 'Аргентина', tuurajoop: true),
+    Joop(text: 'Перу'),
+  ],
+);
+
+const c2 = Suroo(
+  text: 'Сукре',
+  surot: 'sukre',
+  jooptor: [
+    Joop(text: 'Эквадор'),
+    Joop(text: 'Боливиа', tuurajoop: true),
+    Joop(text: 'Уругвай'),
+    Joop(text: 'Парагвай'),
+  ],
+);
+
+const c3 = Suroo(
+  text: 'Бразилия',
+  surot: 'brazilia',
+  jooptor: [
+    Joop(text: 'Венесуела'),
+    Joop(text: 'Малазия'),
+    Joop(text: 'Гайана'),
+    Joop(text: 'Бразилия', tuurajoop: true),
+  ],
+);
+
+const c4 = Suroo(
+  text: 'Каракас',
+  surot: 'karakas',
+  jooptor: [
+    Joop(text: 'Чили'),
+    Joop(text: 'Венесуэла', tuurajoop: true),
+    Joop(text: 'Иордания'),
+    Joop(text: 'Гайана'),
+  ],
+);
+
+const c5 = Suroo(
+  text: 'Джорджтаун',
+  surot: 'djordjtaun',
+  jooptor: [
+    Joop(text: 'Гайана', tuurajoop: true),
+    Joop(text: 'Колумбия'),
+    Joop(text: 'Боловия'),
+    Joop(text: 'Сингапур'),
+  ],
+);
+
+const c6 = Suroo(
+  text: 'Богота',
+  surot: 'bogota',
+  jooptor: [
+    Joop(text: 'Белгия'),
+    Joop(text: 'Гаити'),
+    Joop(text: 'Колумбия', tuurajoop: true),
+    Joop(text: 'Ветнам'),
+  ],
+);
+
+const c7 = Suroo(
+  text: 'Асунсьон',
+  surot: 'asunsion',
+  jooptor: [
+    Joop(text: 'Багамы'),
+    Joop(text: 'Гватемала'),
+    Joop(text: 'Панама'),
+    Joop(text: 'Паргавай', tuurajoop: true),
+  ],
+);
+
+const c8 = Suroo(
+  text: 'Лима',
+  surot: 'lima',
+  jooptor: [
+    Joop(text: 'Мартиника'),
+    Joop(text: 'Перу', tuurajoop: true),
+    Joop(text: 'Доминика'),
+    Joop(text: 'Оман'),
+  ],
+);
+
+const c9 = Suroo(
+  text: 'Парамарибо',
+  surot: 'paramaribo',
+  jooptor: [
+    Joop(text: 'Сен-Бартелеми'),
+    Joop(text: 'Коста-Рико'),
+    Joop(text: 'Суринам', tuurajoop: true),
+    Joop(text: 'Ямайка'),
+  ],
+);
+
+const c10 = Suroo(
+  text: 'Монтевидео',
+  surot: 'montevideo',
+  jooptor: [
+    Joop(text: 'Уругвай', tuurajoop: true),
+    Joop(text: 'Эквадор'),
+    Joop(text: 'Гайана'),
+    Joop(text: 'Перу'),
   ],
 );

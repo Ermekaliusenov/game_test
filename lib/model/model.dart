@@ -23,17 +23,19 @@ List<continentsModel> continents = [
   australia
 ];
 
-final europe = continentsModel(image: 'europa', title: 'Europa',suroolor: suroo_Europe);
-const asia = continentsModel(image: 'asia', title: 'Asia');
+final europe =
+    continentsModel(image: 'europa', title: 'Europa', suroolor: suroo_Europe);
+final asia =
+    continentsModel(image: 'asia', title: 'Asia', suroolor: asiaSurooloru);
 final northAmerica = continentsModel(
     image: 'south_american',
     title: 'South America',
     suroolor: south_America_Suroolor);
 
-const southAmerica = continentsModel(
-  image: 'north_america',
-  title: 'North America',
-);
+final southAmerica = continentsModel(
+    image: 'north_america',
+    title: 'North America',
+    suroolor: northAmericaSurooloru);
 
 const africa = continentsModel(image: 'africa', title: 'Africa');
 const australia = continentsModel(image: 'australia', title: 'Australia');
